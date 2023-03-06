@@ -1,0 +1,31 @@
+@mixin font ($fontS, $fontW, $lineH, $letter, $color) {
+    font-size: $fontS;
+    font-weight: $fontW ;
+    line-height: $lineH;
+    letter-spacing: $letter;
+    color: $color;
+}
+
+@mixin font-1 ($fontS, $fontW, $lineH, $color) {
+    font-size: $fontS;
+    font-weight: $fontW ;
+    line-height: $lineH;
+    color: $color;
+}
+
+@mixin font-2 ($fontS, $lineH, $color) {
+    font-size: $fontS;
+    line-height: $lineH;
+    color: $color;
+}
+
+@mixin flex-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-block-1 {
+    display: flex;
+    align-items: center;
+}

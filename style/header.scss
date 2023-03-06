@@ -1,0 +1,33 @@
+// @import "mixin.scss";
+.header {
+    @include flex-block-1;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 42px;
+    color: $color-blue;
+    padding-left: 0px;
+    padding-top: 45px;
+}
+
+.about-us {
+    padding-top: 59px;
+    margin: 0 200px 0 auto;
+}
+
+.menu-item {
+    text-decoration: none;
+    margin-left: 50px;
+
+    &__home {
+        color: $color-blue;
+    }
+
+    &:hover {
+        color: red;
+        transition: 1s;
+    }
+}
